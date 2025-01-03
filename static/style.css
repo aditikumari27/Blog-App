@@ -1,0 +1,198 @@
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Sevillana&display=swap" rel="stylesheet">
+/* space */
+@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&family=Sevillana&display=swap')
+
+/* space */
+body {
+    background: #f8ffdf;
+
+}
+
+.one {
+    margin-top: 100px;
+    display: inline-block;
+    width: 80vw;
+    height: fit-content;
+    margin-left: 10vw;
+    background-color: rgb(255, 255, 255);
+    /* border-width: 10px; */
+    border-spacing: 20px;
+    box-sizing: border-box;
+    overflow: auto;
+    max-width: 100%;
+
+
+
+}
+
+.two {
+    box-sizing: border-box;
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    box-sizing: border-box;
+    width: auto;
+    overflow: auto;
+    max-width: 100%;
+    word-wrap: break-word;
+}
+
+.a {
+
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    font-style: normal;
+    background-color: rgb(255, 247, 180);
+    height: 45px;
+    padding-top: 3px;
+    text-align: center;
+    color: rgb(0, 0, 255);
+    margin-top: 55px;
+    position: fixed;
+    margin-left: 7vw;
+    border-radius: 10%;
+
+}
+
+.blog-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog-title,
+.blog-date {
+    display: inline;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.blog-date {
+    padding-right: 3px;
+}
+
+.blog-content {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.blog-author {
+    font-family: cursive;
+    display: inline-block;
+    text-align: right;
+    margin-top: 5px;
+    padding-right: 3px;
+}
+
+.box {
+    border: 15px solid rgb(243, 249, 191);
+    border-radius: 7%;
+    padding-left: 2px;
+    margin-top: 0px;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    margin-top: 5px;
+}
+
+.footer a {
+    color: #00aced;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer p {
+    margin: 5px 0;
+}
+
+
+
+h4 {
+    background-color: #f7f7f7;
+    height: 40px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    padding-left: 5px;
+    width: 86vw;
+    box-sizing: border-box;
+    border-radius: 5%;
+
+}
+
+.form {
+    border: 5px dashed rgb(13, 13, 8);
+    width: 60vw;
+    margin-left: 20vw;
+    margin-top: 15vh;
+    border-radius: 15px;
+    background-color: rgb(249, 227, 198);
+}
+
+.button-round {
+    border-radius: 60%;
+    font-size: xx-small;
+    padding: 5px 10px;
+    margin-right: 10px;
+}
+
+/* Align buttons and text */
+.blog-actions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Make sure the buttons are the same size */
+.btn-danger,
+.btn-warning {
+    width: 60px;
+    color: black;
+    background-color: bisque;
+}
+
+.blog-author {
+    margin-left: auto;
+    padding-right: 3px;
+    display: inline-block;
+    text-align: right;
+    margin-top: 5px;
+    padding-right: 3px;
+}
+
+.blog-image-container {
+    text-align: center;
+    margin-top: 20px;
+    /* Adds space above the image */
+    margin-bottom: 20px;
+    /* Adds space below the image */
+}
+
+.blog-image {
+    width: 100%;
+    max-width: 200px;
+    /* Adjust the max-width to control the image size */
+    height: auto;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 0 auto;
+    /* Center the image horizontally */
+}
+
+.blog-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    border-radius: 10px;
+}
